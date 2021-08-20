@@ -1,0 +1,387 @@
+@charset "UTF-8";
+body{
+	margin: 0;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	font-family:Tahoma, Geneva, "sans-serif";
+}
+h3{
+	
+}
+p{
+}
+
+.header_wrap{
+	position: relative;
+	text-align: center;
+}
+.header_backgroundimage{
+	background-image:url(../images/img5.jpg);
+	width: 100%;
+	height: 686px;
+	background-attachment: scroll;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+.header_title{
+	background-image:url(../images/image2.png);
+	border: 2px #ffffff solid;
+	width: 458px;
+	height: 103px;
+	background-size: cover;
+    position: absolute;
+    top: 38%;
+	left: 50%;
+	-ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+	margin-top:60px;
+}
+
+.header_top{
+	
+}
+.header_navigation{
+	
+	color: #fff;
+	position: absolute;
+	top: 76px;
+	left: 50%;
+	-ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-55%,-50%);
+	margin-bottom:200px;
+	
+}
+.header_navigation a{
+	color:#fff;
+	
+}
+.header_navigation a:hover{
+	color: cornsilk;
+}
+.header_navigation  li{
+	display: inline-block;
+	margin-right: 30px;
+	margin-left: 30px;
+	
+}
+.about_wrap{
+	width: 100%;
+	height: 550px;
+    margin-top: -20px;
+	background-image: url(../images/backimg.jpg);
+	
+}
+.about_image{
+	background-image:url(../images/img7.jpg);
+	width: 458px;
+	height: 303px;
+	background-size: cover;
+	display: inline-block;
+	margin-left: 10vw;
+	margin-right: 2vw;
+	margin-top: 22px;
+}
+
+.about_title{
+    margin:7em 0 4em 0;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+	width: 200px;
+}
+.about_title:before, .about_title:after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: -webkit-calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: black;
+}
+.about_title:before {left: 10px;}
+.about_title:after {right: 10px;}
+
+.about_title h2 {
+    margin: 0; 
+    padding: 0;
+	text-align: center;
+  }
+
+
+
+.about_article{
+	width: 530px;
+	height: 303px;
+	display: inline-block;
+	margin-left: 10vw;
+
+}
+.about_article h2{
+	font-size: 1.8em;
+}
+.about_article p{
+	line-height: 2.5;
+	font-size: 0.9em;
+}
+.about_p p{
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+}
+
+.content_wrap{
+	position: relative;
+	width: 100%;
+	height: 320px;
+	display: block;
+}
+.content_title h2{
+	font-size: 1.8em;
+	
+}
+.content_news {
+	width: 600px;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+.content_news p{
+	text-align: left;
+	font-size: 0.75em;
+}
+.content_news span{
+	padding-right: 60px;
+	font-weight: bold;
+}
+.content_title{
+    margin:2em 0;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+	text-align: center;
+	width: 200px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	margin-top: 150px;
+	
+}
+.content_title:before, .content_title:after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: -webkit-calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: black;
+}
+.content_title:before {left: 10px;}
+.content_title:after {right: 10px;}
+.content_title h2 {
+    margin: 0; 
+    padding: 0;
+}
+
+
+
+.main_wrap{
+	text-align: center;
+	margin-bottom: 20vh;
+}
+.main_menu p{
+	width: 300px;
+	height: auto;
+	text-align: center;
+	line-height: 2;
+	letter-spacing: 2px;
+}
+.main_menu h3{
+	margin-top: 100px;
+}
+.main_title h2{
+	font-size: 1.8em;
+}
+.main_title{
+    margin:120px auto 40px auto;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+	width: 200px;
+}
+.main_title:before, .main_title:after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: -webkit-calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: black;
+}
+.main_title:before {left: 10px;}
+.main_title:after {right: 10px;}
+.main_title h2 {
+    margin: 0; 
+    padding: 0;
+	text-align: center;
+}
+
+.main1_wrap{
+	display: inline-block;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.main1_section{
+	display: block;
+	text-align: center;
+	margin-top:-20px;
+	
+}
+.main1_section p{
+	margin: 0 auto;
+	font-size: 0.8em;
+}
+.main1_section h3{
+	display: block;
+	font-size: 1.3em;
+	
+}
+.main1_section span{
+	font-size: 0.9em;
+	padding-right: 5px;
+}
+.menu1 img{
+	width: 300px;
+	display: block;
+	
+}
+.main2_wrap{
+	display: inline-block;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.main2_section{
+	display: block;
+	margin-top: -30px;
+	
+}
+.main2_section h3{
+	display: block;
+	font-size: 1.3em;
+	
+	
+}
+.main2_section p{
+	margin: 0 auto;
+	font-size: 0.8em;
+}
+.main2_section span{
+	font-size: 0.9em;
+	padding-right: 5px;
+}
+.menu2 img{
+	width: 275px;
+	display: block;
+}
+.main3_wrap{
+	display: inline-block;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.main3_section{
+	display: block;
+	margin-top:-20px;
+}
+.main3_section h3{
+	display: block;
+	font-size: 1.3em;
+	margin-bottom: 40px;
+}
+
+.main3_section p{
+	margin: 0 auto;
+	font-size: 0.8em;
+}
+
+.main3_section span{
+	font-size: 0.9em;
+	padding-right: 5px;
+}
+.menu3 img{
+	width: 300px;
+	display: block;
+}
+
+.acsess_wrap{
+	background-image: url(../images/backimg.jpg);
+    width:100%;
+	height: 550px;
+
+}
+.acsess_map{
+	display: inline-block;
+    margin-left: 10vw;
+	padding-top: 100px;
+	margin-right: 3vw;
+}
+
+.acsess_article{
+	display: inline-block;
+	margin-left: 20vw;
+}
+.acsess_p{
+	font-size: 0.9em;
+}
+.acsess_p p{
+	font-family: a-otf-jun-pro, sans-serif;
+font-style: normal;
+font-weight: 300;
+}
+.acsess_title{
+	display: inline-block;
+    position: relative;
+    padding: 0.5em 1.5em;
+    border-top: solid 2px black;
+    border-bottom: solid 2px black;
+	margin-bottom: 120px;
+	width: 200px;
+	
+}
+.acsess_title:before, .acsess_title:after{
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: -webkit-calc(100% + 20px);
+    height: calc(100% + 20px);
+    background-color: black;
+}
+.acsess_title:before {left: 10px;}
+.acsess_title:after {right: 10px;}
+
+.acsess_title h2 {
+    margin: 0; 
+    padding: 0;
+	text-align: center;
+	font-size: 1.8em;
+}
+.acsess_p span{
+	margin-right: 60px;
+	font-weight: bold;
+}
+.footer_wrap{
+	width:100%;
+	height: 80px;
+	background-color: #000000;
+}
+.footer_wrap h5{
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 30px;
+}
